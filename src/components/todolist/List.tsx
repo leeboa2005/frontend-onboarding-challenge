@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { useTodos, usePersistentLocalTodos } from '../services/useTodoQueries';
-import { Todo } from '../types/todo';
+import { useTodos, usePersistentLocalTodos } from '../../services/useTodoQueries';
+import { Todo } from '../../types/todo';
 
 const List = () => {
     const [newTodo, setNewTodo] = useState('');

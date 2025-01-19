@@ -1,8 +1,8 @@
 import { useState, ChangeEvent, FormEvent } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { authAPI } from '../api/auth';
-import FormInput from '../components/FormInput';
-import SubmitButton from '../components/SubmitButton';
+import FormInput from '../components/common/FormInput';
+import SubmitButton from '../components/common/SubmitButton';
 
 const Signup = () => {
     const [form, setForm] = useState({ id: '', password: '', nickname: '' });

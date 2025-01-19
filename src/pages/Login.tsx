@@ -2,8 +2,8 @@ import { useState, ChangeEvent, FormEvent } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { authAPI } from '../api/auth';
 import { useAuthStore } from '../store/authStore';
-import FormInput from '../components/FormInput';
-import SubmitButton from '../components/SubmitButton';
+import FormInput from '../components/common/FormInput';
+import SubmitButton from '../components/common/SubmitButton';
 
 const Login = () => {
     const [form, setForm] = useState({ id: '', password: '' });

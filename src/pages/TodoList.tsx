@@ -1,4 +1,4 @@
-import List from '../components/List';
+import List from '../components/todolist/List';
 
 const TodoListPage = () => {
     return (
